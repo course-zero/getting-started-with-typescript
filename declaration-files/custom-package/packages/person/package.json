@@ -1,0 +1,6 @@
+{
+    "name": "person",
+    "version": "1.0.0",
+    "main": "./person.js",
+    "typings": "person.d.ts"
+}

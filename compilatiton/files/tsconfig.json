@@ -1,0 +1,13 @@
+// tsconfig.json
+
+{
+    "include": [
+        "a.ts",
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "outDir": "dist",
+        "allowJs": true,
+        "checkJs": true
+    }
+}

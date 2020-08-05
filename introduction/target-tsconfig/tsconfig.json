@@ -1,0 +1,10 @@
+{
+    "files": [
+        "./program.ts"
+    ],
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "ES5",
+        "module": "CommonJS"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "files": [
+        "./async-await-try-catch.ts"
+    ],
+    "compilerOptions": {
+        "lib": [ "DOM", "ES2020" ]
+    }
+}

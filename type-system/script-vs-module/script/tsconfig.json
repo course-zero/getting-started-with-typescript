@@ -1,0 +1,9 @@
+{
+    "files": [
+        "./main.ts",
+        "./vendor.ts",
+    ],
+    "compilerOptions": {
+        "outDir": "dist"
+    }
+}

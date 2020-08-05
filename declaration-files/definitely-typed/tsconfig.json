@@ -1,0 +1,12 @@
+{
+  "files": [
+    "./program.ts"
+  ],
+  "compilerOptions": {
+    "lib": [ "ES2015" ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ]
+  }
+}

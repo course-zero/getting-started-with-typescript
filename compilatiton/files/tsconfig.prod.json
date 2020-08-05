@@ -1,0 +1,11 @@
+// tsconfig.json
+
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "dist_prod",
+        "paths": {
+            "modules/*": [ "node_modules/*" ]
+        }
+    }
+}

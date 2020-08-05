@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "Node",
+        "module": "CommonJS",
+        "target": "ES2017"
+    }
+}

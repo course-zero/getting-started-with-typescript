@@ -1,0 +1,10 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "main": "./dist/api.js",
+  "typings": "./dist/api.d.ts",
+  "dependencies": {
+    "@types/moment": "^2.13.0",
+    "moment": "^2.26.0"
+  }
+}

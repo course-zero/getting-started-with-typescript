@@ -1,0 +1,5 @@
+{
+    "name": "human",
+    "version": "1.0.0",
+    "main": "./human.js"
+}

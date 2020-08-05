@@ -1,0 +1,14 @@
+{
+  "files": [
+    "./person-test.ts",
+    "./human-test.ts",
+  ],
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "outDir": "dist",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ]
+  }
+}
