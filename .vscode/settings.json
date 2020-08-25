@@ -30,6 +30,7 @@
         ".monaco-workbench .part.titlebar": "background-color: rgb(37, 37, 38) !important",
         ".decorationsOverviewRuler": "opacity: 0 !important",
         ".monaco-scrollable-element>.visible": "opacity: 0 !important",
+        ".monaco-workbench .monaco-scrollable-element > .scrollbar > .slider": "opacity: 0 !important",
         ".editor-container": "margin-top: 10px !important;",
         ".monaco-editor .scroll-decoration": "box-shadow: unset !important;",
         ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab": "background-color: transparent !important;",

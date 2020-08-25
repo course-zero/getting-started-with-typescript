@@ -1,0 +1,7 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "devDependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}

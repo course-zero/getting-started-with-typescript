@@ -1,0 +1,13 @@
+{
+    "files": [
+        "class-decorator-factory-type-safe.ts"
+    ],
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "removeComments": true,
+        "alwaysStrict": true
+    }
+}
