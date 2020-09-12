@@ -1,4 +1,5 @@
 const path = require( 'path' );
+const ForkTsCheckerWebpackPlugin = require( 'fork-ts-checker-webpack-plugin' );
 
 module.exports = {
 
@@ -27,11 +28,22 @@ module.exports = {
         rules: [
             {
                 test: /\.tsx?/,
-                use: 'ts-loader',
+                use: {
+                    loader: 'ts-loader',
+                    options: {
+                        transpileOnly: true,
+                    }
+                },
                 exclude: /node_modules/,
             }
         ]
     },
 
+    // plugins
+    plugins: [
+        new ForkTsCheckerWebpackPlugin(), // run TSC on a separate thread
+    ],
+
+    // set watch mode to `true`
     watch: true
 };
