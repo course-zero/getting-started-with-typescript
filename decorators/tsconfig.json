@@ -1,6 +1,6 @@
 {
     "files": [
-        "class-decorator-factory-type-safe.ts"
+        "class-decorator.ts"
     ],
     "compilerOptions": {
         "target": "ES6",
